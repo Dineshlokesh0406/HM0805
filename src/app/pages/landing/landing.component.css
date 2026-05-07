@@ -1,3 +1,59 @@
+.landing-nav {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.landing-brand h2 {
+  margin: 0;
+}
+
+.landing-brand p {
+  color: #94a3b8;
+  margin: 0.35rem 0 0;
+}
+
+.landing-nav-links {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f1f5f9;
+}
+
+.login-link {
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color 0.2s ease;
+}
+
+.login-link:hover {
+  color: #f1f5f9;
+}
+
 .search-panel {
   display: grid;
   gap: 1.5rem;

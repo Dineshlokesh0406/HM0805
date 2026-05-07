@@ -1,12 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import { MockHotelService } from '../../core/mock-hotel.service';
 import { CityOption, Room } from '../../core/models';
 
 @Component({
   selector: 'app-landing',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.css'
 })
