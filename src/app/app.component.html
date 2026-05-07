@@ -1,0 +1,22 @@
+<div class="app-shell">
+  @if (showPublicTopbar()) {
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">HM</span>
+        <div>
+          <h1>Hotel Management System</h1>
+          <p>Angular, Spring Boot JDBC, and MySQL training project.</p>
+        </div>
+      </div>
+
+      <nav class="topnav">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        <a routerLink="/login" routerLinkActive="active">Login/Register</a>
+      </nav>
+    </header>
+  }
+
+  <main class="page-shell">
+    <router-outlet />
+  </main>
+</div>
